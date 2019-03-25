@@ -4,7 +4,7 @@ import Slide from 'react-reveal/Slide';
 class TimeUntil extends Component {
 
     state = {
-        deadline: 'Dec, 16, 2018',
+        deadline: 'May, 19, 2019',
         days:'0',
         hours:'0',
         minutes:'0',
@@ -41,7 +41,7 @@ class TimeUntil extends Component {
             <Slide left delay={1000}>
                 <div className="countdown_wrapper">
                     <div className="countdown_top">
-                        Event starts in
+                        Cumple Añoz de Andrea
                 </div>
                     <div className="countdown_bottom">
                         <div className="countdown_item">

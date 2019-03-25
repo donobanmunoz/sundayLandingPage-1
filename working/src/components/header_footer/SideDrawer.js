@@ -19,30 +19,44 @@ const SideDrawer = (props) => {
 
     return (
         <Drawer
+            
             anchor="right"
             open={props.open}
             onClose={()=> props.onClose(false)}
         >
             <List component="nav">
                 <ListItem button onClick={()=> scrollToElement('featured')}>
-                    Event starts in
-                </ListItem>
-
-                <ListItem button onClick={()=> scrollToElement('venuenfo')}>
-                    Venue NFO
-                </ListItem>
-
-                <ListItem button onClick={()=> scrollToElement('highlights')}>
-                    Highlights
-                </ListItem>
-
-                <ListItem button onClick={()=> scrollToElement('pricing')}>
-                    Pricing
+                    Felipe Leon 
                 </ListItem>
 
                 <ListItem button onClick={()=> scrollToElement('location')}>
-                    Location
+                    Rosario Tejeda
                 </ListItem>
+
+                <ListItem button onClick={()=> scrollToElement('venuenfo')}>
+                    Zulma Muñoz
+                </ListItem>
+
+                <ListItem button onClick={()=> scrollToElement('location')}>
+                    Felipe Omar Leon 
+                </ListItem>
+
+                <ListItem button onClick={()=> scrollToElement('highlights')}>
+                   Andrea Calixto
+                </ListItem>
+
+                <ListItem button onClick={()=> scrollToElement('pricing')}>
+                    Sury Muñoz
+                </ListItem>
+
+                <ListItem button onClick={()=> scrollToElement('location')}>
+                    Abril Muñoz
+                </ListItem>
+
+                <ListItem button onClick={()=> scrollToElement('location')}>
+                    Ramon Muñoz
+                </ListItem>
+
 
             </List> 
         </Drawer>

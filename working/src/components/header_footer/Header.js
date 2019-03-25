@@ -43,7 +43,7 @@ class Header extends Component {
             <AppBar
                 position="fixed"
                 style={{
-                    backgroundColor: this.state.headerShow ? '#2f2f2f' : 'transparent',
+                    backgroundColor: this.state.headerShow ? '#FF6347' : 'transparent',
                     boxShadow: 'none',
                     padding: '10px 0px'
                 }}
@@ -51,8 +51,8 @@ class Header extends Component {
                 <Toolbar>
 
                     <div className="header_logo">
-                        <div className="font_righteous header_logo_venue">The Venue</div>
-                        <div className="header_logo_title">Musical Event</div>
+                        <div className="font_righteous header_logo_venue">Donobancio</div>
+                        <div className="header_logo_title">Ramon</div>
                     </div>
 
                     <IconButton
